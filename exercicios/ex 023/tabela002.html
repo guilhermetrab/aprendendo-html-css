@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position:relative
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            color: white;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        Anatomia para tabrlas grandes
+        APTION= Legenda
+        table
+            thead
+                tr, td, th
+            tbory
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    <table>
+        <caption>População das Unidades Federativasx</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45000000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17000000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14000000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45000000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17000000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14000000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45000000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17000000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14000000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45000000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17000000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14000000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45000000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17000000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14000000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <th>97000000</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
