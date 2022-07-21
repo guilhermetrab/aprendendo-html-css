@@ -23,3 +23,7 @@ a{
     padding: 20px;  
     text-decoration: none;
 }
+
+a:hover{
+    background-color: red;
+}
