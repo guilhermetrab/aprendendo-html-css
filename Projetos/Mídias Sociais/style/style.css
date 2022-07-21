@@ -21,15 +21,22 @@ main{
 
 section#celular{
     position: absolute;
-    background-image: url('../imagens/frame-iphone.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-section#ccelular > iframe{
-    position: relative;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: url('../imagens/frame-iphone.png') center center no-repeat;
+    width: 311px;
+    height: 627px;
+
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 471px;
 }
 
 section#social{
