@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Navigation</title>
+    <style>
+        *{
+            margin:0%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+       header{
+        padding: 4rem;
+        background-color: lightgray;
+       }
+       nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       ul{
+        list-style: none;
+        display: flex;
+        gap: .8rem;
+        align-items: center;
+       }
+
+       ul li:last-child{
+        background-color: black;
+        color: white;
+        padding: .8rem;
+        border-radius: 3px;
+       }
+
+       a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+       }
+
+       footer{
+        margin-top: auto;
+        background-color: lightgray;
+        display: flex;
+        
+        align-items: center;
+        height: 8rem;
+        justify-content: center;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">LOGO</a>
+            <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>TESTIMONIALS</li>
+            <li>Contact</li>
+        </ul></nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        2021
+    </footer>
+</body>
+</html>

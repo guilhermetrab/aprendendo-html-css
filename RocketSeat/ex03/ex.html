@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando</title>
+    <style>
+        .page{
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+        }
+        aside{
+            background-color: green;
+            flex: 1;
+        }
+        main{
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+        }
+        main section:nth-child(1){
+            background-color: aquamarine;
+            flex: 2;
+        }
+        main section:nth-child(2){
+            background-color: rgb(66, 138, 114);
+            flex: 0 80px;
+        }
+        main section:nth-child(3){
+            background-color: rgb(37, 70, 59);
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <aside>Aside</aside>
+        <main>Main
+            <section>content 1</section>
+            <section>content 2</section>
+            <section>content 3</section>
+        </main>
+    </div>
+    
+</body>
+</html>
