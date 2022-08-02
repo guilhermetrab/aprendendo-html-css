@@ -1,1 +1,0 @@
-Seus dados foram enviados, crie um arquivo php para saber mais.
