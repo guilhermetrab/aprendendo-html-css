@@ -34,7 +34,7 @@ i#burguer:hover{
 }
 
 menu{
-    display: none;
+    display: block;
 }
 
 menu > ul {
@@ -73,4 +73,16 @@ menu > ul > li > a:hover{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px; 
+ }
+
+ @media screen and (min-width:768px){
+    i#buguer{
+     display: none;
+    } 
+    menu{
+     display: block;
+    }
+    menu > ul > li{
+     display: inline-block;
+    }
  }
