@@ -7,17 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <link rel="stylesheet" href="stule/media-query.css">
+    
 </head>
-<body onresize="mudoutamanho()">
+<body >
     <header>
         <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
-                <li><a href="">algo1</a></li>
-                <li><a href="">algo2</a></li>
-                <li><a href="">algo3</a></li>
-                <li><a href="">algo3</a></li>
+                <li><a href="#">algo1</a></li>
+                <li><a href="#">algo2</a></li>
+                <li><a href="#">algo3</a></li>
+                <li><a href="#">algo4</a></li>
             </ul>
         </menu>    
     
@@ -32,23 +33,13 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus aliquam similique eaque. Perferendis corrupti delectus qui harum, inventore aperiam cupiditate vitae. Eveniet, ratione dolorem. Magni debitis nesciunt quae quaerat minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, id nostrum recusandae aliquid, amet enim consequuntur eius excepturi voluptates labore reiciendis maxime, natus distinctio facilis veritatis. Optio illum repudiandae obcaecati.</p>
     </main>
     <script>
-        function mudoutamanho(){
-            if(indow.innerWidth>= 768){
-                itens.style.display = 'block'
-            } else{
+        function clickMenu(){
+            if(itens.style.display == 'block'){
                 itens.style.display = 'none'
-            }
-
-        }
-
-        function clickmenu() {
-            if( itens.style.style == 'block') {
-            itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
+            } else{
+            itens.style.display = 'block'
             }
         }
-
     </script>
 </body>
 </html>
