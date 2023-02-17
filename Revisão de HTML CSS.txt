@@ -1,0 +1,88 @@
+		HTML
+Sites para buscar imagens: Pexels; pexels;
+Sites para buscar ícones: favicon.io; iconarchive;
+
+Símbolos;
+&lt = <
+&gt = >
+$reg; = R de marca registrada
+&copy; = copyhigth
+
+Tags que não são mt utilizadas:
+<sup> sobrescrito
+<sub> subscrito
+<code> mono espaçado
+<pre> pra deixa os códigos iguais ao HTML
+<blockquote> citação que desloca
+<abbr> Abreviação com hover no HTML
+
+
+Lembretes
+<a href="link" TARGET"_blank"> conteúdo</a> (o blank faz abrir uma aba externa com o link, sem ele, o link é aberto na aba atual)
+
+<picture>
+    <source media= "max-width" srcset="-----" <img>----</img>   type"---">
+</picture>
+<audio>
+    <source src="audio" type="audio/formato">
+    <source   repede a mesma coisa com formatos diferentes>
+</audio>
+<video width="tamanho" controls>
+    <source src="arquivo do vídeo" type="vídeo/tipo de arquivo">
+    <source   repete o procedimento>
+</video>
+ vídeo do youtube com iFrame: compartilhar -> incorporar -> copia e cola no código.
+
+div é umb loco;
+spam é uma linha;
+
+Tipos de links:
+<a href= "https://..."> abre um site
+<a href= "mailto:..."> abre pra enviar um email
+<a href= "tel:..."> abre pra realizar uma chamada
+<a href= "#nome do id"> link com o ID e puxa para ele
+
+Formulários:
+
+<form action"ex:local" method="GET ou POST">
+<fieldset> é um agrupamento
+<legend> a legenda do fieldset
+<label> faz  conexão com outros elementos via ID sendo eles:
+	input;
+	meter;
+	output;
+	progress;
+	select;
+	textarea; entre outros.
+<button> podendo possuir os seguindotes types="...":
+	submit;
+	reset;
+	button;
+	autofocus;
+	desabled;
+	name;
+	value;
+	form; entre outros.
+<input type="..."> tipos de input:
+	="Password "
+	="Email"
+	="URL"
+	="File" accpet="JS, image, /*, audio/*, .doc" multiple
+	="hiden" pra saber quanto tempo demorou
+	="radio" substitui a checkbox e só pode marcar uma opção
+	="search"
+Dentro do input:
+	Required: obrigatório
+	minlength="num"
+	maxlength="num"
+	size
+	placeholder:dica
+	autocomplete:senha, usuário, etc
+	step: mudança de valor
+	min e max: numérico
+	value: aparece preenchido e da pra mudar o valor
+	
+
+AMANHÃ EU FAÇO A REVISÃO DE CSS
+	  
+    
