@@ -1,0 +1,132 @@
+Revisão de JAVA SCRIPT
+
+
+	*Regras*
+
+*Os comando devem ser com a letra minúcula, de uma palabra para outra usa-se maiúscola, ex: varianteMax
+*Para fzr um comentário na linha basta colocar: //
+*Para abrir um comentário basta fazer assim:/*   comentário    */
+*Identificadores:  
+  Válidos: letra; $; -; acentos e símbolos;
+  Inválido: palabras reservadas; espaços; começar com números;
+*Valores(tipos de dados:
+	Number: 
+  	  5
+	  -23
+	  0.24
+	  -14.4
+	String:
+	  "Google"
+ 	  "JavaScrip"
+ 	  "Maria
+	  "abdksflj"
+	Boolean:
+	  true
+	  false
+	Undefined: 
+	  indefinido, inexistente
+	null: 
+	  não tem nada dentro
+	Obejct: 
+	  array, map, set, date...
+	Array[]
+
+*number.parseInt(n) converte uma string para número inteiro
+*number.parseFloat(n) converte uma string para número real
+*string(n) e n.toString() conventem números para string
+*junção de dados:
+ 'O aluno tirou a nota ${s}'
+s.length quantas caracteres tem s
+s.toUperCase() tudo maiúsculo
+s.toLowerCase() tudo minúculo
+s.toFixed() número de casas decimais que irão aparecer
+s.toReplaced("x" , "y") pra trocar uma coisa por outra
+
+Operadores do JS: Aritméticos; Relacionais; Lógicos; Ternários;
+	Operadores Aritméticos: +   -   *   /   %   **
+				ordem de prioridade: parênteses, potenciação, multiplicação e divisão, + e -
+
+	Operadores Relacioanais:
+       	  < menor que
+	  > maior que 
+	  <= igual ou menor
+	  == é igual
+	  != diferente
+
+	Operadores Lógicos:
+	  ! negação
+	  && conjunção E
+	  || dijunção OU
+	
+	Operadores Ternários:
+	  ? texte	? verdadeiro : falso
+	  : m=>7	   aprovado  : reprovado
+
+ SELEÇÂO DE OBJETOS:
+	window.document.querySelector()
+	window.document.getElmentsById(' ')[]
+				    Name(' ')[]
+				    ClassName(' ')[]
+
+*Variáveis
+var: varia, é global e local
+let: é local
+const: é constant e local
+
+*Concatenação
+console.log('O'+ name + ' tem ' + age + 'anos')
+	     O   João     tem      18    anos
+	   (`O ${name}    tem   ${age}   anos.`)
+
+ Document Obeject Model
+evendtos do DOM:
+mouseenter(entrou na área)
+mousemove(se moveu na área)
+mousedown(sair da área)
+click( clicou e soltou)
+nomeDaVariavel.addEventListener('click')
+
+*Criando elemetos na página
+Const C = document.CreateElement('div')
+C.innertext= 'Olá humanos'
+body.append(dive)
+
+*Estruturas de Condição
+
+*IF*
+if(condição){
+   se a dondição estiver ok
+   bla bla bla acontece
+   }else{
+   se não
+   ble ble ble acontece}
+
+*SWITCH*
+switch(----){
+  case n:---
+   break
+  case n:---
+   break
+  case n:---
+   break
+  defalt:---
+}
+
+
+*Estruturas de Repeticão
+ WHILE: while(enquato):texte lógico no começo{}
+
+ DO WHILE: do{ ------ }  while  (condição)
+	  faça  isso   enquanto  isso for verdadeiro
+
+ FOR: (início; teste; incremento)
+
+
+*Vetores
+let num = [1, 8, 9, 7]
+	   0  1  2  3
+num[9]= 6; criando um valor para cada casa esecífica 
+num.push(valor) adicionando valor a uma nova casa
+num.length quantas casas tem o vetor num
+num.sort  agrupa os elementos do vetor em ordem crescente 
+	
